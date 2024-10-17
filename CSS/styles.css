@@ -1,0 +1,39 @@
+body {
+    background-image: url(https://images.pexels.com/photos/409701/pexels-photo-409701.jpeg?cs=srgb&dl=pexels-karoldach-409701.jpg&fm=jpg); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 50px auto;
+  }
+  
+  .container {
+    margin-top: 100px;
+  }
+  
+  .sensor-section,
+  .camera-section,
+  .dimmer-section,
+  .motion-section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="range"] {
+    width: 100%;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
